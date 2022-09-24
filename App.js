@@ -12,7 +12,7 @@ export default function App() {
 
     {/* image + nama */}
     <View style={{alignItems: 'center', marginTop: -230 }}>
-        <Image source={require('./src/images/foto.png')}/>
+        <Image source={require('./src/images/foto1.png')}/>
         <Text style={{fontSize: 25, fontWeight: 'bold', color: 'black', marginTop: 20}}>FARRENDA</Text>
         <Text style={{color: 'black', marginTop: 5}}>Siswa SMK Negeri 2 Surakarta</Text>
     </View>
@@ -44,7 +44,7 @@ export default function App() {
 {/* sosmed */}
   <View style={{alignItems: 'center', marginTop: 50}}>
   <TouchableOpacity>
-    <Text onPress={() => Linking.openURL('https://instagram.com')} style={{height: 120, width: 100}}> 
+    <Text onPress={() => Linking.openURL('https://instagram.com')} style={{height: 120, width: 90}}> 
       <Image source={require('./src/images/logo_ig.png')} />
     </Text >
   </TouchableOpacity>
